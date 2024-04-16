@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #feefdd;
+    color: #50b2c0;
+}
+main{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    font-size: 8rem;
+}
+.players{
+    min-width: 50vw;
+    font-size: 1.5rem;
+    color: #ff4000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    min-height: 10rem;
+}
